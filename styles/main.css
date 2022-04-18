@@ -1,0 +1,161 @@
+.disco {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.discosquare1 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.discosquare1:hover {
+	background-color: green;
+}
+
+.discosquare2 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.discosquare2:hover {
+	background-color: brown;
+}
+
+.discosquare3 {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+
+.discosquare3:hover {
+	background-color: yellow;
+}
+
+.discosquare4 {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+.discosquare4:hover {
+	background-color: orange;
+}
+
+.discosquare5 {
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
+
+.discosquare5:hover {
+	background-color: red;
+}
+
+.discosquare6 {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+}
+
+.discosquare6:hover {
+	background-color: silver;
+}
+
+
+
+
+.switcher {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.switcher > div:nth-child(odd):hover {
+	background-color: blue;
+}
+
+.switcherchild1 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.switcherchild2 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.switcherchild3 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.switcherchild4 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.switcherchild5 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+.switcherchild6 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+
+
+
+.switchernot {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.switchernot > div:not(.switchernotchild2):hover {
+	background-color: yellow;
+}
+
+.switchernotchild1 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.switchernotchild2 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.switchernotchild3 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.switchernotchild4 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.switchernotchild5 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.switchernotchild6 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
